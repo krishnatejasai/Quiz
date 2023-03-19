@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font: 62.5%;
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(244, 185, 252);
+
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem  rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0.5rem 0 2rem 0;
+}
+
+.inner-div li{
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    font-size: 1rem;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(244, 185, 252);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(241, 162, 251);
+}
+
+#showScore{
+    background-color: rgb(250, 235, 252);
+    margin-top: 2rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem  rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+}
+
+.scoreArea{
+    display: none;
+}
+
+#showScore h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#showScore .btn:hover{
+    background-color: #f16add;
+    color: #fff;
+}
